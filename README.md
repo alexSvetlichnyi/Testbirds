@@ -11,8 +11,7 @@ long time.
 2. One can select applications to be blacklisted<br />
 3. When pressing a button, the no-distraction-mode starts<br />
 a) You detect the application the user is using currently<br />
-b) In case the current foreground application is blacklisted,<br />
-you notify the user and open your app again<br />
+b) In case the current foreground application is blacklisted, you notify the user and open your app again<br />
 4. The app offers a button to stop the no-distraction-mode<br />
 
 **Non-functional requirements:**<br />
@@ -30,5 +29,5 @@ you notify the user and open your app again<br />
 **Used libraries:**<br />
 1) Android architecture components - view models, live data<br />
 2) Databinding<br />
-3) com.android.support:recyclerview-v7:27.1.1<br />
+3) RecyclerView<br />
 4) Action Mode<br />
